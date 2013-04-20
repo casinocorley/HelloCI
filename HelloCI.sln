@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCI.Web", "HelloCI.Web\HelloCI.Web.csproj", "{E7FF528A-9036-489B-8845-0801C3F58736}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCI.Framework", "HelloCI.Framework\HelloCI.Framework.csproj", "{D6D4C087-2F19-491D-A539-E923E65F2E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCI.Framework.Test", "HelloCI.Framework.Test\HelloCI.Framework.Test.csproj", "{1AB29B85-78CE-4CDA-A0E2-01B92F5DA155}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B2ADE0E-10C1-4233-AE83-98EEE8EC0E84}"
+	ProjectSection(SolutionItems) = preProject
+		HelloCI.vsmdi = HelloCI.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = HelloCI.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7FF528A-9036-489B-8845-0801C3F58736}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FF528A-9036-489B-8845-0801C3F58736}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FF528A-9036-489B-8845-0801C3F58736}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FF528A-9036-489B-8845-0801C3F58736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6D4C087-2F19-491D-A539-E923E65F2E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D4C087-2F19-491D-A539-E923E65F2E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D4C087-2F19-491D-A539-E923E65F2E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D4C087-2F19-491D-A539-E923E65F2E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB29B85-78CE-4CDA-A0E2-01B92F5DA155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB29B85-78CE-4CDA-A0E2-01B92F5DA155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB29B85-78CE-4CDA-A0E2-01B92F5DA155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB29B85-78CE-4CDA-A0E2-01B92F5DA155}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
